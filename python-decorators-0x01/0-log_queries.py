@@ -23,3 +23,4 @@ def fetch_all_users(query):
 # Fetch users while logging the query
 users = fetch_all_users(query="SELECT * FROM users")
 
+Fix: add datetime logging to log_queries decorator
